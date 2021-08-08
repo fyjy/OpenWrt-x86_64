@@ -67,7 +67,6 @@ jobs:
           cd openwrt-packages
           git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git
           git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git
-          git clone https://github.com/apollo-ng/luci-theme-darkmatter.git
 
     - name: Load custom feeds
       run: |
